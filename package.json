@@ -1,12 +1,12 @@
-
-
 {
-
+	"name": "api-recipe-list",
+	"version": "1.0.0",
+	"main": "server.js",
 	"scripts": {
-    "server": "json-server --watch db.json --port 3001"
-  },
-
+	  "start": "node server.js",
+	  "dev": "json-server --watch db.json --port 3001"
+	},
 	"dependencies": {
-		"json-server": "1.0.0-beta.1"
+	  "json-server": "1.0.0-beta.1"
 	}
-}
+  }
